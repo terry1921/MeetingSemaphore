@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DBB0A472A38DB9500931901 /* Meeting_SemaphoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB0A462A38DB9500931901 /* Meeting_SemaphoreApp.swift */; };
+		2DBB0A492A38DB9500931901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB0A482A38DB9500931901 /* ContentView.swift */; };
+		2DBB0A4B2A38DB9700931901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB0A4A2A38DB9700931901 /* Assets.xcassets */; };
+		2DBB0A4E2A38DB9700931901 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB0A4D2A38DB9700931901 /* Preview Assets.xcassets */; };
+		2DBB0A582A38DB9700931901 /* Meeting_SemaphoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB0A572A38DB9700931901 /* Meeting_SemaphoreTests.swift */; };
+		2DBB0A622A38DB9700931901 /* Meeting_SemaphoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB0A612A38DB9700931901 /* Meeting_SemaphoreUITests.swift */; };
+		2DBB0A642A38DB9700931901 /* Meeting_SemaphoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB0A632A38DB9700931901 /* Meeting_SemaphoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DBB0A542A38DB9700931901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBB0A3B2A38DB9500931901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBB0A422A38DB9500931901;
+			remoteInfo = "Meeting Semaphore";
+		};
+		2DBB0A5E2A38DB9700931901 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBB0A3B2A38DB9500931901 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBB0A422A38DB9500931901;
+			remoteInfo = "Meeting Semaphore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DBB0A432A38DB9500931901 /* Meeting Semaphore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting Semaphore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBB0A462A38DB9500931901 /* Meeting_SemaphoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_SemaphoreApp.swift; sourceTree = "<group>"; };
+		2DBB0A482A38DB9500931901 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DBB0A4A2A38DB9700931901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DBB0A4D2A38DB9700931901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DBB0A532A38DB9700931901 /* Meeting SemaphoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meeting SemaphoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBB0A572A38DB9700931901 /* Meeting_SemaphoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_SemaphoreTests.swift; sourceTree = "<group>"; };
+		2DBB0A5D2A38DB9700931901 /* Meeting SemaphoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meeting SemaphoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBB0A612A38DB9700931901 /* Meeting_SemaphoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_SemaphoreUITests.swift; sourceTree = "<group>"; };
+		2DBB0A632A38DB9700931901 /* Meeting_SemaphoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_SemaphoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DBB0A402A38DB9500931901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBB0A502A38DB9700931901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBB0A5A2A38DB9700931901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBB0A3A2A38DB9500931901 = {
+			isa = PBXGroup;
+			children = (
+				2DBB0A452A38DB9500931901 /* Meeting Semaphore */,
+				2DBB0A562A38DB9700931901 /* Meeting SemaphoreTests */,
+				2DBB0A602A38DB9700931901 /* Meeting SemaphoreUITests */,
+				2DBB0A442A38DB9500931901 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DBB0A442A38DB9500931901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB0A432A38DB9500931901 /* Meeting Semaphore.app */,
+				2DBB0A532A38DB9700931901 /* Meeting SemaphoreTests.xctest */,
+				2DBB0A5D2A38DB9700931901 /* Meeting SemaphoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DBB0A452A38DB9500931901 /* Meeting Semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB0A462A38DB9500931901 /* Meeting_SemaphoreApp.swift */,
+				2DBB0A482A38DB9500931901 /* ContentView.swift */,
+				2DBB0A4A2A38DB9700931901 /* Assets.xcassets */,
+				2DBB0A4C2A38DB9700931901 /* Preview Content */,
+			);
+			path = "Meeting Semaphore";
+			sourceTree = "<group>";
+		};
+		2DBB0A4C2A38DB9700931901 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB0A4D2A38DB9700931901 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DBB0A562A38DB9700931901 /* Meeting SemaphoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB0A572A38DB9700931901 /* Meeting_SemaphoreTests.swift */,
+			);
+			path = "Meeting SemaphoreTests";
+			sourceTree = "<group>";
+		};
+		2DBB0A602A38DB9700931901 /* Meeting SemaphoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DBB0A612A38DB9700931901 /* Meeting_SemaphoreUITests.swift */,
+				2DBB0A632A38DB9700931901 /* Meeting_SemaphoreUITestsLaunchTests.swift */,
+			);
+			path = "Meeting SemaphoreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DBB0A422A38DB9500931901 /* Meeting Semaphore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBB0A672A38DB9700931901 /* Build configuration list for PBXNativeTarget "Meeting Semaphore" */;
+			buildPhases = (
+				2DBB0A3F2A38DB9500931901 /* Sources */,
+				2DBB0A402A38DB9500931901 /* Frameworks */,
+				2DBB0A412A38DB9500931901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meeting Semaphore";
+			productName = "Meeting Semaphore";
+			productReference = 2DBB0A432A38DB9500931901 /* Meeting Semaphore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DBB0A522A38DB9700931901 /* Meeting SemaphoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBB0A6A2A38DB9700931901 /* Build configuration list for PBXNativeTarget "Meeting SemaphoreTests" */;
+			buildPhases = (
+				2DBB0A4F2A38DB9700931901 /* Sources */,
+				2DBB0A502A38DB9700931901 /* Frameworks */,
+				2DBB0A512A38DB9700931901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBB0A552A38DB9700931901 /* PBXTargetDependency */,
+			);
+			name = "Meeting SemaphoreTests";
+			productName = "Meeting SemaphoreTests";
+			productReference = 2DBB0A532A38DB9700931901 /* Meeting SemaphoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DBB0A5C2A38DB9700931901 /* Meeting SemaphoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBB0A6D2A38DB9700931901 /* Build configuration list for PBXNativeTarget "Meeting SemaphoreUITests" */;
+			buildPhases = (
+				2DBB0A592A38DB9700931901 /* Sources */,
+				2DBB0A5A2A38DB9700931901 /* Frameworks */,
+				2DBB0A5B2A38DB9700931901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBB0A5F2A38DB9700931901 /* PBXTargetDependency */,
+			);
+			name = "Meeting SemaphoreUITests";
+			productName = "Meeting SemaphoreUITests";
+			productReference = 2DBB0A5D2A38DB9700931901 /* Meeting SemaphoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DBB0A3B2A38DB9500931901 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2DBB0A422A38DB9500931901 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2DBB0A522A38DB9700931901 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2DBB0A422A38DB9500931901;
+					};
+					2DBB0A5C2A38DB9700931901 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2DBB0A422A38DB9500931901;
+					};
+				};
+			};
+			buildConfigurationList = 2DBB0A3E2A38DB9500931901 /* Build configuration list for PBXProject "Meeting Semaphore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DBB0A3A2A38DB9500931901;
+			productRefGroup = 2DBB0A442A38DB9500931901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DBB0A422A38DB9500931901 /* Meeting Semaphore */,
+				2DBB0A522A38DB9700931901 /* Meeting SemaphoreTests */,
+				2DBB0A5C2A38DB9700931901 /* Meeting SemaphoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBB0A412A38DB9500931901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBB0A4E2A38DB9700931901 /* Preview Assets.xcassets in Resources */,
+				2DBB0A4B2A38DB9700931901 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBB0A512A38DB9700931901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBB0A5B2A38DB9700931901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBB0A3F2A38DB9500931901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBB0A492A38DB9500931901 /* ContentView.swift in Sources */,
+				2DBB0A472A38DB9500931901 /* Meeting_SemaphoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBB0A4F2A38DB9700931901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBB0A582A38DB9700931901 /* Meeting_SemaphoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBB0A592A38DB9700931901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBB0A622A38DB9700931901 /* Meeting_SemaphoreUITests.swift in Sources */,
+				2DBB0A642A38DB9700931901 /* Meeting_SemaphoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DBB0A552A38DB9700931901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBB0A422A38DB9500931901 /* Meeting Semaphore */;
+			targetProxy = 2DBB0A542A38DB9700931901 /* PBXContainerItemProxy */;
+		};
+		2DBB0A5F2A38DB9700931901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBB0A422A38DB9500931901 /* Meeting Semaphore */;
+			targetProxy = 2DBB0A5E2A38DB9700931901 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DBB0A652A38DB9700931901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DBB0A662A38DB9700931901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DBB0A682A38DB9700931901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meeting Semaphore/Preview Content\"";
+				DEVELOPMENT_TEAM = 2QWKAN98DZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mx.rockstar.Meeting-Semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DBB0A692A38DB9700931901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Meeting Semaphore/Preview Content\"";
+				DEVELOPMENT_TEAM = 2QWKAN98DZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mx.rockstar.Meeting-Semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DBB0A6B2A38DB9700931901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QWKAN98DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mx.rockstar.Meeting-SemaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeting Semaphore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meeting Semaphore";
+			};
+			name = Debug;
+		};
+		2DBB0A6C2A38DB9700931901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QWKAN98DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mx.rockstar.Meeting-SemaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meeting Semaphore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meeting Semaphore";
+			};
+			name = Release;
+		};
+		2DBB0A6E2A38DB9700931901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QWKAN98DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mx.rockstar.Meeting-SemaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meeting Semaphore";
+			};
+			name = Debug;
+		};
+		2DBB0A6F2A38DB9700931901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QWKAN98DZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mx.rockstar.Meeting-SemaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meeting Semaphore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBB0A3E2A38DB9500931901 /* Build configuration list for PBXProject "Meeting Semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBB0A652A38DB9700931901 /* Debug */,
+				2DBB0A662A38DB9700931901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBB0A672A38DB9700931901 /* Build configuration list for PBXNativeTarget "Meeting Semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBB0A682A38DB9700931901 /* Debug */,
+				2DBB0A692A38DB9700931901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBB0A6A2A38DB9700931901 /* Build configuration list for PBXNativeTarget "Meeting SemaphoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBB0A6B2A38DB9700931901 /* Debug */,
+				2DBB0A6C2A38DB9700931901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBB0A6D2A38DB9700931901 /* Build configuration list for PBXNativeTarget "Meeting SemaphoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBB0A6E2A38DB9700931901 /* Debug */,
+				2DBB0A6F2A38DB9700931901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DBB0A3B2A38DB9500931901 /* Project object */;
+}
